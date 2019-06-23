@@ -1,3 +1,5 @@
+// A program to sort numbers entered by user into a vector.
+
 #include <iostream>
 #include <sstream>
 #include <math.h>
@@ -5,18 +7,16 @@
 using namespace std;
 
 int main() {
+
   vector<int> number;
   string s;
-  int i = 0;
-  int sum = 0;
-  while (cin >> s, s != "done") {
-    stringstream ss(s);
-    int x;
-    ss >> x;
-    number.push_back(x);
-    sum += number.back();
+ 
+    while (cin >> s, s != "done") {     // While the inputted string is not "done" do...
+      stringstream ss(s);               //
+      int x;                            //  Define a stringstream, and some integer x,
+      ss >> x;                          //  convert the string into integer x
+      number.push_back(x);              //  Add x to vector "number"
   }
-  cout << sum;
   return 0;
 }
 

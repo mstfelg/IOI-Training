@@ -1,12 +1,10 @@
-// A program to sort numbers entered by user into a vector.
-
 #include <iostream>
 #include <sstream>
 #include <math.h>
 #include <vector>
 using namespace std;
 
-    // A program to count frequency of charactars
+    // count frequency of charactars
 int main() {
   string str;
   char check_char;
@@ -25,5 +23,18 @@ int main() {
   return 0;
 }
 
+// Reverse string letters
 
+int main() {
+  string str;
+  getline(cin, str);
+  int n = str.size();
+      for (int i = 0; i <= n/2; i++) {
+        int temp = str[i];
+        str[i] = str[n-i-1];
+        str[n-i-1] = temp;
+      }
+    cout << str << "\n";
+  return 0;
+}
 

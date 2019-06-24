@@ -27,7 +27,7 @@ int main() {
   bool flag = x.size() == y.size();
   for (int i = 0; i < x.size() && flag; i++)
       flag &= (x[i].first == y[i].first)&&(x[i].second <= y[i].second);
-      if (flag) cout << "YES";
-      else cout << "NO";
+      if (flag) cout << "YES\n";
+      else cout << "NO\n";
   return 0;
 }

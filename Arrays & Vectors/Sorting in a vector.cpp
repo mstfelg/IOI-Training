@@ -1,4 +1,9 @@
-// A program to sort numbers entered by user into a vector.
+/*
+    Title           :   Sorting in a vector
+    Author          :   ALELQ, MUSTAFA
+    Date            :   24 June, 2019
+    Description     :   Sorting n numbers entered by user into a vector. After finishing entering numbers enter any char.
+*/ 
 
 #include <iostream>
 #include <sstream>
@@ -10,7 +15,8 @@ int main() {
   vector<int> number;
   string s;
     while (cin >> s, true) {
-    if (!(s[0] >= '0' && s[0] <= '9')) {break;} // If the string isn't a number break the loop.
+   // break the loop when ∄ a number
+    if (!(s[0] >= '0' && s[0] <= '9')) {break;}
       stringstream ss(s);               
       int x;                            //  Define a stringstream, and some integer x,
       ss >> x;                          //  convert the string into integer x

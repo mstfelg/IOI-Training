@@ -15,7 +15,7 @@ A collection of solutions to interesting problems with some notes. If you have a
     * [Online GDB](www.onlinegdb.com)
   
  ## Tasks
-  - [ ] Finish (Programiz Curriculum)[https://www.programiz.com/cpp-programming]
+  - [ ] Finish [Programiz Curriculum](https://www.programiz.com/cpp-programming)
   - [ ] Reach score 50 on kattis
   
  ## Coding aesthetics

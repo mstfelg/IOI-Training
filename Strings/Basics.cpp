@@ -1,40 +1,27 @@
-#include <iostream>
-#include <sstream>
-#include <math.h>
-#include <vector>
-using namespace std;
+/*
+    Title           :   Basic string problems
+    Author          :   ALELQ, MUSTAFA
+    Date            :   24 June, 2019
+    Description     :   Frequency of chars, reversing a string.
+*/
 
-    // count frequency of charactars
-int main() {
-  string str;
-  char check_char;
+// Count frequency of charactars
+int charCount(string str, char checkChar) {
   int count = 0;
-
-  cout << "Enter a text: ";
-  getline(cin, str);
-
-  cout << "Enter a charactar to check: ";
-  cin >> check_char;
-
-    for (int i = 0; i < str.size(); i++) {
-      if ( check_char == str[i] ) count++;
-    }
-    cout << count;
-  return 0;
+  for (int i = 0; i < str.size(); i++) if ( check_char == str[i] ) count++;
+  return count;
 }
 
 // Reverse string letters
-
-int main() {
-  string str;
-  getline(cin, str);
-  int n = str.size();
-      for (int i = 0; i <= n/2; i++) {
-        int temp = str[i];
-        str[i] = str[n-i-1];
-        str[n-i-1] = temp;
-      }
-    cout << str << "\n";
-  return 0;
+void rev(string str) {
+  // Solution1
+  for (int i = 0; i <= str.size()/2; i++) {
+    int temp = str[i];
+    str[i] = str[n-i-1];
+    str[n-i-1] = temp;
+    }
+  // Solution2
+  string strTemp = "";
+  for (int i = 1; i < str.size; i++) strTemp += str[n-i];
+    str = strTemp;
 }
-

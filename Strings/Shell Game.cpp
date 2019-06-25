@@ -1,4 +1,6 @@
 // Shell game
+// A solution to https://open.kattis.com/problems/trik
+
 
 #include <iostream>
 #include <sstream>

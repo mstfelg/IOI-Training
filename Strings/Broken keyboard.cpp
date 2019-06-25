@@ -1,18 +1,28 @@
+    /*
+    Title           :   Broken keyboard
+    Author          :   ALELQ, MUSTAFA
+    Date            :   25 June, 2019
+    Description     :   Solution to Problem1: https://codeforces.com/problemset/problem/1185/B
+                                    Problem2: https://open.kattis.com/problems/apaxiaaans
+    */
+
+
+// Problem1
+
 #include <iostream>
 #include <sstream>
 #include <vector>
-
 using namespace std;
 
-// A solution to https://codeforces.com/problemset/problem/1185/B
-
-
-void insert(string str, vector<pair<char, int>> &a) {             // a function converts a string to pairs of chars with # of appearances
+// a function converts a string to pairs of chars with # of appearances
+void insert(string str, vector<pair<char, int>> &a) {
 
   for (int i = 0; i < str.size();) {
       int count = 1;
-      for (int j = 1; i+j < str.size() && str[i] == str[i+j]; j++) count++;            // counting frequency of a character
-      a.push_back({str[i], count});                                // pushing it into a pair to the vector
+    // counting frequency of a character
+      for (int j = 1; i+j < str.size() && str[i] == str[i+j]; j++) count++;        
+    // pushing it into a pair to the vector
+      a.push_back({str[i], count});                                
       i += count;
     }
 }
@@ -30,4 +40,16 @@ int main() {
       if (flag) cout << "YES\n";
       else cout << "NO\n";
   return 0;
+}
+
+// Problem2
+void noRept(string str) {
+    for (int i = 0; i < str.size();) {
+      cout << str[i];
+      int count = 0;
+      // Determining the size of increment needed
+    for (int j = 0; str[i]==str[i+j]; j++) count++;
+        i += count;
+      }
+    cout << endl;
 }

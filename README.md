@@ -33,3 +33,7 @@ A collection of solutions to interesting problems with some notes. If you have a
   1. Comments above each section.
   1. Indentation
   1. [Naming convention](https://en.wikipedia.org/wiki/Naming_convention_(programming)). [[1]](https://hackernoon.com/the-art-of-naming-variables-52f44de00aad)
+
+## Tips
+  * Use comment // to disable part of the code.
+  * While debugging, add some output text at each section of the code.

@@ -21,10 +21,12 @@ A collection of solutions to interesting problems with some notes. If you have a
  ## Coding aesthetics
   1. Header comment
 ```
+    /*
     Title           :   Hello, World!
     Author          :   ALELQ, MUSTAFA
     Date            :   23 June, 2019
     Description     :   Cout, printf commands
+    */
 ```
   1. Comments above each section.
   1. Indentation

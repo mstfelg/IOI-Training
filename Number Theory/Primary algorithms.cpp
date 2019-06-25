@@ -1,3 +1,10 @@
+/*
+    Title           :   Arithmitic algorithms & Primary algorithms in Number Theory
+    Author          :   ALELQ, MUSTAFA
+    Date            :   23 June, 2019
+    Description     :   GCD(a, b), isPrime(p)
+*/
+
 // GCD algorithm using recursion
 int gcd(int a, int b) {
   return a == b ? a : (a>b ? gcd (a - b, b) : gcd(a, b - a));

@@ -24,11 +24,15 @@ int main() {
      default: g4++; break; 
    }
    }
-  // compare g1, count min
   int min;
+    // Group g2 with themselves, g1 with g3.
+    // if (g1 - g3) remained after grouping, group them with themselves. If the remainder %4 allows adding 2, then add.
+    // otherwise we have the situation: g4 + #(g2 grouped with themselves) + g3 + ((g1 - g3) grouped with themselves).
+
     if      (g3 >= g1)                                      min = g4 + g3 + (g2+1)/2;
     else if (((g1 - g3) % 4 == 1)||((g1 - g3) % 4 == 2))    min = g4 + g3 +  g2/2 + (g1-g3+3)/4;
     else                                                    min = g4 + g3 + (g2+1)/2 + (g1-g3+3)/4;
+
   cout << min;
   return 0;
 }

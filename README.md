@@ -1,5 +1,5 @@
 # Coding
-A collection of solutions to interesting problems with some notes. If you have any ideas or suggestions to improve the efficiency of the solutions I'll be thankful for your contact.
+Providing elegant solutions to challenging problems is a real joy for me; in this file I collected my solutions to problems I found interesting with some notes. If you have any ideas or suggestions to improve the efficiency of the solutions I'll be thankful for your contact.
 
 > I hear and I forget. I see and I remember. I do and I understand.
   — 23 June, 2019.

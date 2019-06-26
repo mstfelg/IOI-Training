@@ -12,7 +12,7 @@ using namespace std;
 // Check if charactar ch is in string st
 bool inStr(char ch, string str) {
     bool flag = false;
-    // Pass through each str[i], update flag when you find str[i] == ch & stop the loop.
+    // Pass through each str[i], update flag once you find str[i] == ch & stop the loop.
     for (int i = 0; !flag && i < str.size(); i++) flag |= (str[i]==ch);
     return flag;
 }

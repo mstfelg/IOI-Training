@@ -21,6 +21,8 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
   - [ ] [Snowball](https://codeforces.com/contest/1099/problem/A)
   - [ ] [Plus from a picture](https://codeforces.com/problemset/problem/1182/B)
  ## Coding aesthetics
+ ## Coding aesthetics
+ Keeping an organized beautiful code is a good programmming habit, which saves you a lot of time while debugging.
   1. Header comment
 ```
     /*
@@ -30,10 +32,10 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
     Description     :   Cout, printf commands
     */
 ```
-  1. Comments above each section.
-  1. Indentation
-  1. [Naming convention](https://en.wikipedia.org/wiki/Naming_convention_(programming)). [[1]](https://hackernoon.com/the-art-of-naming-variables-52f44de00aad)
+  1. Partition your code into multiple stages or sections then comment above each section, you can add an output text at the end of each section of the code to debug more quickly.
+  1. Use indentation: this reveals the entire code structure. 
+  1. Follow a consistant [naming convention](https://en.wikipedia.org/wiki/Naming_convention_(programming)). [[1]](https://hackernoon.com/the-art-of-naming-variables-52f44de00aad)
 
 ## Tips
-  * Use comment // to disable part of the code.
-  * While debugging, add some output text at each section of the code.
+  * Plan your code, jot down your main structure & ideas, think is it the 
+  * Use commenst // to disable part of the code.

@@ -14,8 +14,7 @@ int main() {
     cin.tie(NULL);
     cout.tie(NULL);
 
-    int n;
-    cin >>  n;
+    scanf("", n);
     // Vector of numbers
     vector<int> nums;
     // Adding all numbers into nums

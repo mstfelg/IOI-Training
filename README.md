@@ -11,7 +11,7 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
  ## Coding aesthetics
  Keeping an organized beautiful code is a good programmming habit, which saves you a lot of time while debugging.
   1. Header comment
-```
+```cpp
     /*
     Title           :   Hello, World!
     Author          :   ALELQ, MUSTAFA

@@ -21,6 +21,8 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
    ### **Nice problems to be solved**
   - [ ] [Snowball](https://codeforces.com/contest/1099/problem/A)
   - [ ] [Plus from a picture](https://codeforces.com/problemset/problem/1182/B)
+  - [ ] https://codeforces.com/problemset/problem/160/A
+  - [ ] https://codeforces.com/problemset/problem/327/A
  ## Coding aesthetics
  Keeping an organized beautiful code is a good programmming habit, which saves you a lot of time while debugging.
   1. Header comment

@@ -38,4 +38,4 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
 
 ## Tips
   * Plan your code, jot down your main structure & ideas, think whether there's a better way.
-  * Use commenst // to disable part of the code.
+  * Use comments // to disable part of the code.

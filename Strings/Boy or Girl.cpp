@@ -4,6 +4,7 @@
     Date            :   26 June, 2019
     Description     :   Solution to: https://codeforces.com/problemset/problem/236/A
                         Determining the parity of distinct characters in a string
+                        A better solution with set.insert() function.
     */
 
 #include <bits/stdc++.h>

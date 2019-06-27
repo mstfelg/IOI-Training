@@ -6,15 +6,9 @@
                         Determining whether it's possible to get a substring by erasing chars of a given substring.
                         Solution need to be enhanced, and generalized.
     */
-
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(NULL);
-    cout.tie(NULL);
   // Problem: given a string s, is it possible to get the word hello by erasing chars of s (without shifting)
+    
+    /*  _____________________________ First solution _____________________________ */ 
     string s;
     cin >> s;
     
@@ -33,8 +27,23 @@ int main() {
         // if you find o after at least 2 l's update it with 1.
         isO  |= (s[i] == 'o')&&(countL>1);
     }
-    // Print YES if you've reached to O
+    // Output
     if (isO) cout << "YES";
     else cout << "NO";
-    return 0;
-}
+
+    /* _____________________________ Second BETTER solution _____________________________ */ 
+
+    // Targeted string to find inside s is "Hello"
+    string s, target = "hello";
+    cin >> s;
+    // Define index i pointing at target[i]
+    int i = 0;
+
+    // While index i didn't reach to the end,
+    for (int j = 0; i < 5 && j < s.size(); j++) 
+    
+    // Add 1 to i whenever the equality holds
+    i += (s[j] == target[i]);
+
+    // Output
+    cout << (i == 5 ? "YES" : "NO");

@@ -1,6 +1,6 @@
 # Complexity Issues
   * It's better to use printf, scanf; with the code:
-     ```
+     ```cpp
       ios::sync_with_stdio(false);
       cin.tie(NULL);
       cout.tie(NULL);
@@ -30,7 +30,7 @@
  # Coding aesthetics
  Keeping an organized beautiful code is a good programmming habit, which saves you a lot of time while debugging.
   1. Header comment
-```
+```cpp
     /*
     Title           :   Hello, World!
     Author          :   ALELQ, MUSTAFA

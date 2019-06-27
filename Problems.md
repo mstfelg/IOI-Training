@@ -1,3 +1,12 @@
+## Tasks
+  - [ ] Finish [Programiz Curriculum](https://www.programiz.com/cpp-programming)
+  - [ ] Reach score 50 on kattis
+   ### **Nice problems to be solved**
+  - [ ] [Snowball](https://codeforces.com/contest/1099/problem/A)
+  - [ ] [Plus from a picture](https://codeforces.com/problemset/problem/1182/B)
+  - [ ] https://codeforces.com/problemset/problem/160/A
+  - [ ] https://codeforces.com/problemset/problem/327/A
+
 Date | Problem | Tags
 ------------ | ------------- | -------------
 2019-06-24 | [Broken keyboard](https://codeforces.com/contest/1185/problem/B) ( [Sol](https://github.com/mstfelq/Coding/blob/master/Strings/Broken%20keyboard.cpp) ) | Strings, vectors, pairs

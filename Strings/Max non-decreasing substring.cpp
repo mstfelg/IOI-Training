@@ -1,7 +1,7 @@
  /*
-    Title           :   Maximum non-decreasing substring
+    Title           :   Maximum non-decreasing substring (Kefa and the first steps)
     Author          :   ALELQ, MUSTAFA
-    Date            :   26 June, 2019
+    Date            :   27 June, 2019
     Description     :   Solution to: https://codeforces.com/problemset/problem/580/A
                         
 */
@@ -14,22 +14,21 @@ int main() {
     cin.tie(NULL);
     cout.tie(NULL);
 
-    scanf("", n);
-    // Vector of numbers
-    vector<int> nums;
-    // Adding all numbers into nums
-    for (int i = 0; i < n; ++i) {
-        int k;
-        cin >> k;
-        nums.push_back(k);
+    int n;
+    cin >> n;
+    int nums[n];
+    cin >> nums[0];
+    int countMax = 1, count = 1;
+    for (int i = 1; i < n; i++) {
+        cin >> nums[i];
+        if (nums[i-1] <= nums[i]) {
+            count++;
+            // * Set countMax to whatever number bigger than him
+            countMax = max(countMax, count);
+        }
+        // Reset the counter whenever the chars differ
+        else count = 1;
     }
-    // counting non-decreasing length
-    int max = 0;
-    for (int i = 0; i < n; ++i) {
-        int count = 1;
-        for (int j = 1; ( nums[i+j-1] <= nums[i+j] ) && i+j < nums.size() ; j++) {count++;}
-        if (max < count) max = count;
-    }
-    cout << max;
+    cout << countMax;
     return 0;
 }

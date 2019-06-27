@@ -3,7 +3,7 @@
     Author          :   ALELQ, MUSTAFA
     Date            :   27 June, 2019
     Description     :   Solution to: https://codeforces.com/contest/58/problem/A
-                        Determining whether it's possible to get a substring by erasing chars of a given substring.
+                        Determining whether it's possible to get a substring by erasing chars of a given string.
                         Solution need to be enhanced, and generalized.
     */
   // Problem: given a string s, is it possible to get the word hello by erasing chars of s (without shifting)

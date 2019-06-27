@@ -27,3 +27,6 @@
           }
           ```
         Notice that in the previous example you didn't have to record all of length of consecutive chars, just define one variable max, and just update it whenever you see something bigger than it.
+# General tips
+  * Plan your code, jot down your main structure & ideas, think whether there's a better way.
+  * Use comments // to disable part of the code.

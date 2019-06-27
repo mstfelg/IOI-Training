@@ -4,25 +4,10 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
 > I hear and I forget. I see and I remember. I do and I understand.
   — 23 June, 2019.
 
-## Resources
-  * **Curriculums**:
-    * [Programiz](https://www.programiz.com/cpp-programming)
-  * **Problem-solving resources**:
-    * [Code Forces](www.CodeForces.com)
-    * [Kattis](www.Kattis.com)
-  * **Compilers**:
-    * [VScodium](https://vscodium.com/)
-    * [Repl.it](www.Repl.it)
-    * [Online GDB](www.onlinegdb.com)
-  
- ## Tasks
-  - [ ] Finish [Programiz Curriculum](https://www.programiz.com/cpp-programming)
-  - [ ] Reach score 50 on kattis
-   ### **Nice problems to be solved**
-  - [ ] [Snowball](https://codeforces.com/contest/1099/problem/A)
-  - [ ] [Plus from a picture](https://codeforces.com/problemset/problem/1182/B)
-  - [ ] https://codeforces.com/problemset/problem/160/A
-  - [ ] https://codeforces.com/problemset/problem/327/A
+## Quick access
+    * [Problem list](https://github.com/mstfelq/Coding/blob/master/Problems.md)
+    * [Theory](https://github.com/mstfelq/Coding/blob/master/Theory.md)
+
  ## Coding aesthetics
  Keeping an organized beautiful code is a good programmming habit, which saves you a lot of time while debugging.
   1. Header comment
@@ -38,6 +23,12 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
   1. Use indentation: this reveals the entire code structure. 
   1. Follow a consistant [naming convention](https://en.wikipedia.org/wiki/Naming_convention_(programming)). [[1]](https://hackernoon.com/the-art-of-naming-variables-52f44de00aad)
 
-## Tips
-  * Plan your code, jot down your main structure & ideas, think whether there's a better way.
-  * Use comments // to disable part of the code.
+## Resources
+    * [Programiz](https://www.programiz.com/cpp-programming)
+    * [Code Forces](www.CodeForces.com)
+    * [Kattis](www.Kattis.com)
+    * [Hacker rank](www.hackerrank.com)
+    * [Coding bat](https://codingbat.com/java)
+    * [Code Wars](https://www.codewars.com/)
+    * [Cook Book method](https://www.devdungeon.com/cookbook)
+    * [USA Computing Olympiad](http://www.usaco.org/index.php)

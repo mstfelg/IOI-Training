@@ -4,8 +4,7 @@
    ### **Nice problems to be solved**
   - [ ] [Snowball](https://codeforces.com/contest/1099/problem/A)
   - [ ] [Plus from a picture](https://codeforces.com/problemset/problem/1182/B)
-  - [ ] [Twins](https://codeforces.com/problemset/problem/160/A)
-  - [ ] [Flipping game](https://codeforces.com/problemset/problem/327/A)
+  - [x] [Flipping game](https://codeforces.com/problemset/problem/327/A)
 
 Date | Problem | Tags
 ------------ | ------------- | -------------
@@ -17,3 +16,4 @@ Date | Problem | Tags
 2019-06-27 | [Kefa and first steps](https://codeforces.com/contest/580/problem/A) ([Sol](https://github.com/mstfelq/Coding/blob/master/Strings/Max%20non-decreasing%20substring.cpp)) | Maximum non-decreasing subsequence of numbers
 2019-06-27 | [Chat room (hello)](https://codeforces.com/contest/58/problem/A) ([Sol](https://github.com/mstfelq/Coding/blob/master/Strings/canBeFixed.cpp)) | Get a substring by erasing chars of a given string
 2019-06-27 | [Lucky division](https://codeforces.com/problemset/problem/122/A) ([Sol](https://github.com/mstfelq/Coding/blob/master/Number%20Theory/Lucky%20Division.cpp)) | Examining divisors of a number
+2019-06-27 | [Flipping game](https://codeforces.com/problemset/problem/327/A) ([Sol](https://github.com/mstfelq/Coding/edit/master/Strings/Flipped01.cpp)) | Binary, flip, optimization

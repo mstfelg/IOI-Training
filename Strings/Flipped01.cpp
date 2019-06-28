@@ -7,6 +7,7 @@
                         you get maximum # of 1?
     */
 
+                                /* ________________ First solution ________________ */
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -50,5 +51,8 @@ int main() {
     }
     // Output
     cout << max1;
+    
     return 0;
 }
+                                /* ________________ Second BETTER solution ________________ */
+    

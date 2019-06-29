@@ -6,6 +6,7 @@
                         Finding out length of consecutive numbers having at least 2 equal digits.
     */
 
+                            /* ______________________ First solution ______________________ */
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -41,5 +42,27 @@ int main() {
     }
     // Output
     cout << i-1;
+    return 0;
+}
+                            /* ______________________ Second solution ______________________ */
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
+    // Input
+    int n;
+    cin >> n;
+
+    for (int i = n + 1 ;i <= 9000 ;i++) {
+        string s = to_string(i);
+        set<char> uni(s.begin() , s.end());
+        if (uni.size() == 4) {
+            cout << i;
+            return 0;
+        }
+    }
+
     return 0;
 }

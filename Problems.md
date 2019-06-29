@@ -17,3 +17,4 @@ Date | Problem | Tags
 2019-06-27 | [Chat room (hello)](https://codeforces.com/contest/58/problem/A) ([Sol](https://github.com/mstfelq/Coding/blob/master/Strings/canBeFixed.cpp)) | Get a substring by erasing chars of a given string
 2019-06-27 | [Lucky division](https://codeforces.com/problemset/problem/122/A) ([Sol](https://github.com/mstfelq/Coding/blob/master/Number%20Theory/Lucky%20Division.cpp)) | Examining divisors of a number
 2019-06-27 | [Flipping game](https://codeforces.com/problemset/problem/327/A) ([Sol](https://github.com/mstfelq/Coding/edit/master/Strings/Flipped01.cpp)) | Binary, flip, optimization
+2019-06-29 | [School queue](https://codeforces.com/contest/266/problem/B) ([Sol](https://github.com/mstfelq/Coding/blob/master/Strings/Queue(BG).cpp)) | Binary, flip

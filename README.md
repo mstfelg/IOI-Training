@@ -25,6 +25,7 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
 
 ## Resources
    * [Programiz](https://www.programiz.com/cpp-programming)
+   * [Visualgo](https://visualgo.net)
    * [Code Forces](www.CodeForces.com)
    * [Kattis](www.Kattis.com)
    * [Hacker rank](www.hackerrank.com)

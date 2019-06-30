@@ -10,6 +10,7 @@
   
    ## Reading list
   - [ ] [Informatics olympiad: Approaching mathematics through code](http://www.wfnmc.org/mc20072BenBurton.pdf)
+  - [ ] [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum/)
   
 # Done
 - [x] [Flipping game](https://codeforces.com/problemset/problem/327/A)

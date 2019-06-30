@@ -5,9 +5,9 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
   — 23 June, 2019.
 
 ## Quick access
+   * [To-do list](https://github.com/mstfelq/Coding/blob/master/To-do.md)
    * [Problem list](https://github.com/mstfelq/Coding/blob/master/Problems.md)
    * [Theory](https://github.com/mstfelq/Coding/blob/master/Theory.md)
-
  ## Coding aesthetics
  Keeping an organized beautiful code is a good programmming habit, which saves you a lot of time while debugging.
   1. Header comment

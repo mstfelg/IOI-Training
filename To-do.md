@@ -9,8 +9,7 @@
   - [ ] [Plus from a picture](https://codeforces.com/problemset/problem/1182/B)
   
    ## Reading list
-  - [ ] [Snowball](https://codeforces.com/contest/1099/problem/A)
-  - [ ] [Plus from a picture](https://codeforces.com/problemset/problem/1182/B)
-
+  - [ ] [Informatics olympiad: Approaching mathematics through code](http://www.wfnmc.org/mc20072BenBurton.pdf)
+  
 # Done
 - [x] [Flipping game](https://codeforces.com/problemset/problem/327/A)

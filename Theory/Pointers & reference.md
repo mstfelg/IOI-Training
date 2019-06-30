@@ -10,9 +10,9 @@ Note that there's difference in use when defining a variable or using it on a va
 ```cpp
 int &x = y; // x holds the value of y
 cout << &x; // returns the address of x?
-```
 
-```cpp
 int *x = &y; // x holds the address of y
 cout << *x; // returns the value of address x?
+
+// *(&x) = x
 ```

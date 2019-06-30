@@ -4,7 +4,11 @@
   - [ ] Graph theory
   - [ ] Pointer & refrence
   
-   ## **Nice problems to be solved**
+   ## Nice problems to be solved
+  - [ ] [Snowball](https://codeforces.com/contest/1099/problem/A)
+  - [ ] [Plus from a picture](https://codeforces.com/problemset/problem/1182/B)
+  
+   ## Reading list
   - [ ] [Snowball](https://codeforces.com/contest/1099/problem/A)
   - [ ] [Plus from a picture](https://codeforces.com/problemset/problem/1182/B)
 

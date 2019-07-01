@@ -25,7 +25,6 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
 
 ## Resources
    * [Programiz](https://www.programiz.com/cpp-programming)
-   * [IOI Syllabus](https://ioinformatics.org/files/ioi-syllabus-2018.pdf)
    * [Visualgo](https://visualgo.net)
    * [Code Forces](www.CodeForces.com)
    * [Kattis](www.Kattis.com)

@@ -12,7 +12,8 @@ Hence each variable holds 2 important information.
   | Gets the address of a variable | Gets the value that the address is saving |
 
 ```cpp
-int &x = y;                   // Assign the value that address of x holds to the value of y, (no memory is allocated)
+int &x = y;                   // Assign the value that address of x holds
+                              // to the value of y, (no memory is allocated)
 
 cout << &x;                   // returns the address of x
 

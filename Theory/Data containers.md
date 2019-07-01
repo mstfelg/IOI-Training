@@ -1,0 +1,6 @@
+**Arrays**: static contiguous memory allocation.
+**Vector**: resizable array.
+**List**: non-contiguous memory allocation.
+**Queue**: takes the first element.
+**Set**: equiv to set in maths, s = {set of elements}.
+**Map**: equiv to function in maths, f(x).

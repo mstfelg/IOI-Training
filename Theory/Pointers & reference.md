@@ -6,9 +6,10 @@ Computer memory consists of:
 Imagine a variable as a container or a conveyor of a content (i.e: value) with its position in a memory (i.e: address).
 
 Hence each variable holds 2 important information.
+
   | Reference '&'  | Pointer '\*' |
   | ------------- | ------------- |
-  | Gets the address of a variable  | Gets the value that the address is saving  |
+  | Gets the address of a variable | Gets the value that the address is saving |
 
 ```cpp
 int &x = y;                   // Assign the value that address of x holds to the value of y, (no memory is allocated)

@@ -24,12 +24,23 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
   1. Follow a consistant [naming convention](https://en.wikipedia.org/wiki/Naming_convention_(programming)). [[1]](https://hackernoon.com/the-art-of-naming-variables-52f44de00aad)
 
 ## Resources
+  Curriculum:
+  
    * [Programiz](https://www.programiz.com/cpp-programming)
    * [Visualgo](https://visualgo.net)
+   
+  Curricular problem solving:
+  
+   * [Hacker rank](www.hackerrank.com)
+   * [Hacker earth](https://www.hackerearth.com)
+   
+  General practice:
+
    * [Code Forces](www.CodeForces.com)
    * [Kattis](www.Kattis.com)
-   * [Hacker rank](www.hackerrank.com)
-   * [Coding bat](https://codingbat.com/java)
+
+   Other:
+
    * [Code Wars](https://www.codewars.com/)
    * [Cook Book method](https://www.devdungeon.com/cookbook)
    * [USA Computing Olympiad](http://www.usaco.org/index.php)

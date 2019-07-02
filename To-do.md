@@ -19,5 +19,5 @@
   - [ ] [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum/)
   
 # Done
-- [x] [Flipping game](https://codeforces.com/problemset/problem/327/A)
-- [x] [Pointer & reference](https://github.com/mstfelq/Coding/blob/master/Theory/Pointers%20%26%20reference.md)
+- [x] [Flipping game](https://codeforces.com/problemset/problem/327/A) - 27 June, 2019
+- [x] [Pointer & reference](https://github.com/mstfelq/Coding/blob/master/Theory/Pointers%20%26%20reference.md) - 1 July, 2019

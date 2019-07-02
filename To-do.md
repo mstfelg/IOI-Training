@@ -4,8 +4,8 @@
   - [ ] Reach score 50 on kattis
   
    ## Nice problems to be solved
-  - [ ] [Snowball](https://codeforces.com/contest/1099/problem/A)
   - [ ] [Plus from a picture](https://codeforces.com/problemset/problem/1182/B)
+  - [ ] [Employees and managers](https://codeforces.com/problemset/problem/115/A)
   
    ## Topics to cover
   - [ ] Graph theory

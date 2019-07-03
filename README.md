@@ -46,4 +46,4 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
    * [USA Computing Olympiad](http://www.usaco.org/index.php)
 
    # License
-      MIT
+   MIT

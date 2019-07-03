@@ -9,6 +9,7 @@
   
    ## Topics to cover
   - [ ] Graph theory
+  - [ ] Two pointers technique
   - [ ] Binary search
   - [ ] Segment tree
   - [ ] Greedy algorithm

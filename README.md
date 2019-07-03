@@ -44,5 +44,3 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
    * [Code Wars](https://www.codewars.com/)
    * [Cook Book method](https://www.devdungeon.com/cookbook)
    * [USA Computing Olympiad](http://www.usaco.org/index.php)
-
-test

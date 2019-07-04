@@ -12,8 +12,9 @@
                         4. Find the first worst number that's taking out max # of candidates.
                         
                         Edge cases:
-                        * n = 1;
-                        * If the first worst number doesn't affect # of records after deleting it print 1.
+                        1. n == 1
+                        2. The first number in each permutation is a record
+                        3. If the first worst number doesn't affect # of records after deleting it print 1.
     */
 
 #include <bits/stdc++.h>
@@ -31,15 +32,19 @@ int main() {
     // Array of permutation
     int arr[n];
 
-    // bad[i] := # of numbers that i+1 is affecting the candidate records
+    // bad[i] := # of candidate records that i+1 is affecting the 
     int bad[n];
+    // for (int i = 0; i < n; ++i) {
+    //     cout << bad[i] << endl;
+    // }
 
-    // Edge case n == 1
+    // Edge case (1)
     if (n == 1) cout << 1;
     else {
-
-        // Initiate the two arrays
-        for (int i = 0; i < n; ++i) {
+        // Edge case (2)
+        bad[0] = -1;
+        // Initiate the array
+        for (int i = 1; i < n; ++i) {
             cin >> arr[i];
             bad[i] = 0;
         }
@@ -55,15 +60,17 @@ int main() {
             }
             
             // If a number is between max0, max1 then it's a candidate for a record.
-            else if (arr[i] > max1) {
+            // max0 prevents that candidate
+            else if (arr[i] >= max1) {
                 max1 = arr[i];
                 ++bad[max0-1];
             }
+            --bad[max0-1];
 
         }
 
         // Take the worst number out
-        int maxBad = 0;
+        int maxBad = -2;
         int m = 0;
         for (int i = 0; i < n; ++i) {
             if (maxBad < bad[i]) {

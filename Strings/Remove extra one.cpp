@@ -33,10 +33,7 @@ int main() {
     int arr[n];
 
     // bad[i] := # of candidate records that i+1 is affecting the 
-    int bad[n];
-    // for (int i = 0; i < n; ++i) {
-    //     cout << bad[i] << endl;
-    // }
+    int bad[n] = {};
 
     // Edge case (1)
     if (n == 1) cout << 1;
@@ -52,7 +49,7 @@ int main() {
         // Check how bad each number is
         int max0 = 0, max1 = 0;
 
-        for (int i = 0; i < n; ++i) {
+        for (int i = 1; i < n; ++i) {
 
             if (arr[i] >= max0) {
                 max1 = max0;
@@ -65,8 +62,8 @@ int main() {
                 max1 = arr[i];
                 ++bad[max0-1];
             }
+            // Since max0 is a record subtract 1
             --bad[max0-1];
-
         }
 
         // Take the worst number out

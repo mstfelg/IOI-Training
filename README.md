@@ -5,45 +5,49 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
   — 23 June, 2019.
 
 ## Quick access
+   * Header comment
+```cpp
+    /*
+    Title           :   ...
+    Author          :   ALELQ, MUSTAFA
+    Date            :   23 July, 2019
+    Description     :   A solution to: ...
+                        GIVEN: ... DO: ...
+    Pseudocode      :
+                        1. Step1
+                        2. Step2
+                        3. Step3
+                        4. Step4
+                        5. Step5
+                        
+                        Edge cases:
+                        1. n == k
+                        
+    */
+```
    * [To-do list](https://github.com/mstfelq/Coding/blob/master/To-do.md)
    * [Problem list](https://github.com/mstfelq/Coding/blob/master/Problems.md)
    * [Theory](https://github.com/mstfelq/Coding/blob/master/Theory/0.General%20notes.md)
- ## Coding aesthetics
- Keeping an organized beautiful code is a good programmming habit, which saves you a lot of time while debugging.
-  1. Header comment
-```cpp
-    /*
-    Title           :   Hello, World!
-    Author          :   ALELQ, MUSTAFA
-    Date            :   23 June, 2019
-    Description     :   Cout, printf commands
-    */
-```
-  1. Partition your code into multiple stages or sections then comment above each section, you can add an output text at the end of each section of the code to debug more quickly.
-  1. Use indentation: this reveals the entire code structure. 
-  1. Follow a consistant [naming convention](https://en.wikipedia.org/wiki/Naming_convention_(programming)). [[1]](https://hackernoon.com/the-art-of-naming-variables-52f44de00aad)
+      * Coding aesthetics
 
 ## Resources
-  Curriculum:
+  **Curriculum:**
   
    * [Programiz](https://www.programiz.com/cpp-programming)
    * [Visualgo](https://visualgo.net)
    
-  Curricular problem solving:
+  **Curricular problem solving:**
   
    * [Hacker rank](www.hackerrank.com)
    * [Hacker earth](https://www.hackerearth.com)
    
-  General practice:
+  **General practice:**
 
    * [Code Forces](www.CodeForces.com)
    * [Kattis](www.Kattis.com)
-
-   Other:
-
    * [Code Wars](https://www.codewars.com/)
+
+  **Other:**
+
    * [Cook Book method](https://www.devdungeon.com/cookbook)
    * [USA Computing Olympiad](http://www.usaco.org/index.php)
-
-   # License
-   MIT

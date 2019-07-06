@@ -1,5 +1,5 @@
     /*
-    Title           :   School queue
+    Title           :   School queue (Moving 1's)
     Author          :   ALELQ, MUSTAFA
     Date            :   29 June, 2019
     Description     :   A solution to: https://codeforces.com/contest/266/problem/B

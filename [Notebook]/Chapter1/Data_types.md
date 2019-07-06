@@ -1,6 +1,3 @@
-* Strings
-* Graph theory
-
 ## Data containers:
 
   * **Arrays**: static contiguous memory allocation.

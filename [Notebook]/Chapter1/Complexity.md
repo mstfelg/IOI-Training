@@ -1,0 +1,7 @@
+  * It's better to use printf, scanf; with the code:
+     ```cpp
+      ios::sync_with_stdio(false);
+      cin.tie(NULL);
+      cout.tie(NULL);
+     ```
+  * **Avoid nested loops as possible**: Be greedy with your memory resources, only save variables and arrays when you'll use them, in other words, think of there's a way to minimize the number of for loops into only one for loop. (See also: [All into one loop](Techniques\All%20into%20one%20loop.md))

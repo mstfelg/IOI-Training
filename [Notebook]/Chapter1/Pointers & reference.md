@@ -16,7 +16,8 @@ Hence each variable holds 2 important information.
 
   | Reference '&'  | Dereference '\*' |
   | ------------- | ------------- |
-  | Gives the address of a variable | Gives the value that the address is storing |
+  | Given a variable        | Given an address
+  | Returns the address of a variable | Returns the value that the address is storing |
   
   **Pointer**: a special variable that stores an address of another variable rather than a value.
   

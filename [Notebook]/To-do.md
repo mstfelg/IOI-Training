@@ -2,6 +2,7 @@
   - [ ] Finish [Programiz Curriculum](https://www.programiz.com/cpp-programming)
   - [ ] Learn [data structures](https://visualgo.net).
   - [ ] Reach score 50 on kattis
+  - [ ] Master the programs you use: (Github, VS code)
   
    ## Nice problems to be solved
   - [ ] [Vessels](https://codeforces.com/problemset/problem/371/D)

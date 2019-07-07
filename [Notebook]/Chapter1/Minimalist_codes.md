@@ -4,7 +4,8 @@
 ```cpp
     if (!k)                    // equiv to if (k == 0)
     if (k&1)                   // equiv to if (k % 2 == 1)
-    
+    while (k--)                 // equiv to for (int i = k; i > 0; i--) {}
+
     for ( ... ) {
         flag &= (condition);   // equiv to multiplication of couple of conditions
     }

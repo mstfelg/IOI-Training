@@ -86,3 +86,48 @@ int main() {
 
     return 0;
 }
+
+/* SECOND SOLUTION */
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
+    int n; cin >> n;
+    int cap[n];
+    for (int i = 0; i < n; ++i) cin >> cap[i];
+    int sz[n] = {};
+    set<int> nfld;
+    for (int i = 0; i < n; ++i) {nfld.insert(i);}
+
+    int m; cin >> m;
+    int q, v, l;
+    for (int i = 0; i < m; ++i) {
+        cin >> q;
+        if (q == 1) {
+            cin >> v >> l;
+            --v;
+            while (l) {
+                // there are remaining liters
+                auto it = nfld.lower_bound(v);
+                if (it == nfld.end()) break;
+                // found a not full vessel
+                int q = min(cap[*it] - sz[*it] , l);
+                sz[*it] += q;
+                l -= q;
+
+                if (sz[*it] == cap[*it])
+                    nfld.erase(it);
+            }
+        }
+        else {
+            cin >> v;
+            cout << sz[v-1] << endl;
+        }
+    }
+
+    return 0;
+}

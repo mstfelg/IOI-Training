@@ -5,7 +5,8 @@
   - [ ] Master the programs you use: (Github, VS code)
   
    ## Nice problems to be solved
-  - [ ] [Vessels](https://codeforces.com/problemset/problem/371/D)
+  - [ ] [Dima & Text messages](https://codeforces.com/problemset/problem/358/B)
+  - [x] [Vessels](https://codeforces.com/problemset/problem/371/D) - 7 July, 2019
   - [ ] [Plus from a picture](https://codeforces.com/problemset/problem/1182/B)
   - [ ] [Employees and managers](https://codeforces.com/problemset/problem/115/A)
   
@@ -18,6 +19,7 @@
   - [ ] Dynamic programming
   - [ ] Union find.
   - [ ] Divide and conquer
+  - [ ] Bottom up
 
    ## Reading list
   - [ ] [Informatics olympiad: Approaching mathematics through code](http://www.wfnmc.org/mc20072BenBurton.pdf)

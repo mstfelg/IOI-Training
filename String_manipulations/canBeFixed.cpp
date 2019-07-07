@@ -8,7 +8,8 @@
     */
   // Problem: given a string s, is it possible to get the word hello by erasing chars of s (without shifting)
     
-    /*  _____________________________ First solution _____________________________ */ 
+    /*  _____________________________ First solution _____________________________ */
+ 
     string s;
     cin >> s;
     

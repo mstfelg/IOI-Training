@@ -52,3 +52,11 @@ With time and practice these solutions become typical.
 1. Do1
 1. Do1
 </details>
+    <summary> 1. <a href = ""> Maximal contiguous sum </a> </summary>
+
+1. Do1
+1. Do1
+</details>
+
+## See also
+* [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming).

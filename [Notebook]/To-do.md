@@ -16,6 +16,8 @@
   - [ ] Segment tree
   - [ ] Greedy algorithm
   - [ ] Dynamic programming
+  - [ ] Union find.
+  - [ ] Divide and conquer
 
    ## Reading list
   - [ ] [Informatics olympiad: Approaching mathematics through code](http://www.wfnmc.org/mc20072BenBurton.pdf)

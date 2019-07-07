@@ -1,18 +1,18 @@
 # Notebook structure
-1. Index - Tasks - Problems
+1. **Index** - [Tasks](To-do.md) - [Problems](Problems.md)
 1. Chapter 1 (General notes):
-    1. General notes.
-    1. Data types.
-    1. Complexity.
-    1. Minimalist codes.
-    1. Debugging.
+    1. [Data type](Chapter1\Data_types.md).
+    1. [Pointer](Chapter1\Pointer.md).
+    1. [Complexity](Chapter1\Complexity.md).
+    1. [Minimalist codes](Chapter1\Minimalist_codes.md).
+    1. [Debugging](Chapter1\Debugging.md).
 1. Chapter 2 (Topics):
     1. Graph theory.
     1. Sort.
     1. Search.
     1. Segment tree.
 1. Chapter 3 (Techniques):
-    1. All into one loop.
+    1. [All into one loop](Techniques\All_into_one_loop.md).
 
  # General notes
   > The person who says he knows what he thinks but cannot express it usually does not know what he thinks. ― Mortimer J. Adler
@@ -23,7 +23,9 @@
   * After solving a problem check the editorial or other's solutions, this is important to improve your way of thinking.
   * Master the programs you use; each program is filled with useful time-saving shortcuts.
   * Collect your solutions in a repository (e.g: Github): what's different with programming from maths and other sciences is that it's much easier to write down and collect its solutions.
-  * Learn [touch typing](https://en.wikipedia.org/wiki/Touch_typing): a must-aquire skill, making your typing more efficient and maximizes accuracy.
+  * Learn [touch typing](https://en.wikipedia.org/wiki/Touch_typing): a must-aquire skill, that makes your typing more efficient and maximizes accuracy. (I recommend starting [<b> here</b>](https://www.typingclub.com))
+  * Use return 0 to end the program, generally, in any function, return stops the work of function on next lines.
+  * Change your input/output files if you have big input or output.
 
  ## Coding aesthetics
  Keeping an organized beautiful code is a good programmming habit, which saves you a lot of time while debugging.

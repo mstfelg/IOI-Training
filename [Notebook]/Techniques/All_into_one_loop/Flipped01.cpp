@@ -3,11 +3,20 @@
     Author          :   ALELQ, MUSTAFA
     Date            :   23 June, 2019
     Description     :   Solution to: https://codeforces.com/problemset/problem/327/A
-                        Given a binary string (of 1's & 0's) where to you flip consecutive digits once so that
-                        you get maximum # of 1?
+                        GIVEN: a binary string and ONE step consisting of 
+                        flipping consecutive digits (1 --> 0, 0 --> 1),
+                        
+                        MAXIMIZE: # of 1's 
+
+    Pseudocode      :
+                        1. Step1
+                        2. Step2
+                        3. Step3
+                        4. Step4
+                        5. Step5
     */
 
-                                /* ________________ First solution ________________ */
+                    /* ________________ Naive approach ________________ */
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -54,5 +63,41 @@ int main() {
     
     return 0;
 }
-                                /* ________________ Second BETTER solution ________________ */
-    
+                /* ________________ A better solution ________________ */
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
+    // # of (0's + 1's)
+    int n;
+    cin >> n;
+
+    // # of 1's & # of 1's after flipping
+    int s1 = 0, _s1 = 0;
+
+    // max & min # of ones after flipping
+    int maxS1 = -1, minS1 = 0;
+
+    int d;
+    for (int i = 0; i < n; ++i) {
+        cin >> d;
+
+         s1 += d;
+        _s1 += 1 - 2*d;
+
+        // Maximize
+        maxS1 = max(maxS1, _s1 - maxS1);
+
+        // Smallest # of 1's after flipping
+        minS1 = min(_s1, minS1);
+    }
+
+    cout << s1 + maxS1;
+
+    return 0;
+}

@@ -4,6 +4,7 @@ Bugs are just mistakes, while debugging you should learn from your mistakes and 
   1. keep your code splitted into chunks with an explainatory comment on top of each one.
   1. While debugging use comments to disable your code part by part to locate the bug.
   1. List your common bugs.
+  1. Dealing with zero-based numbering can be troublesome. You either convert everything entered by input to zero-base (which is prefered) or you resize the array and ignore the first element of the array.
 
 # Common bugs
   * Check edge cases.

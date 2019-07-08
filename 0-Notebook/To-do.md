@@ -34,4 +34,4 @@
 # Done
 
 - [x] [Flipping game](https://codeforces.com/problemset/problem/327/A) - 27 June, 2019
-- [x] [Pointer & reference](https://github.com/mstfelq/Coding/blob/master/Theory/Pointers%20%26%20reference.md) - 1 July, 2019
+- [x] [Pointer & reference](Chapter1\Pointers.md) - 1 July, 2019

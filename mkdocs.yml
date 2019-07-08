@@ -20,7 +20,9 @@ theme:
     primary: 'teal'
     accent: 'Deep Purple'
   custom_dir: 'z-Archive/assets/custom/'
-
+  logo:
+    icon: 'cloud'
+  # favicon: 'z-Archive/assets/img/favicon.ico'
 extra_css:
   - 'z-Archive/assets/css/katex.css'
   - 'https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css'

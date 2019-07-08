@@ -12,6 +12,7 @@ edit_uri: tree/master/0-Notebook
 docs_dir: 0-Notebook
 site_dir: ../mstfelq.github.io/IOI-Training
 
+
 # Customization
 theme:
   name: 'material'
@@ -19,7 +20,6 @@ theme:
     primary: 'teal'
     accent: 'Deep Purple'
   custom_dir: 'z-Archive/assets/custom/'
-favicon: 'z-Archive/assets/favicon.png'
 
 extra_css:
   - 'z-Archive/assets/css/katex.css'
@@ -51,11 +51,12 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+  # Social buttons
 extra:
-social:
-  - type: 'github'
-    link: 'https://github.com/mstfelq'
-  - type: 'twitter'
-    link: 'https://twitter.com/mstfelq'
-  - type: 'globe africa'
-    link: 'http://Mustafaelq.sa'
+  social:
+    - type: 'github'
+      link: 'https://github.com/mstfelq'
+    - type: 'twitter'
+      link: 'https://twitter.com/mstfelq'
+    - type: 'globe africa'
+      link: 'http://Mustafaelq.sa'

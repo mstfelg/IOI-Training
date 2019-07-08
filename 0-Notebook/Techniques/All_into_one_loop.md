@@ -4,8 +4,16 @@ This technique is commonly used to minimize the complexity of nested loops. Usua
 
 Be greedy with your memory resources, only save variables and arrays when you'll use them, in other words, think of there's a way to minimize the number of for loops into only one for loop
 
+
+??? note "Phasellus posuere in sem ut cursus"
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+
+<b> Example1: given a string, return the size of the <u> longest substring of equal chars </u> in it. </b>
 <details open>
-  <summary> <b> Example1: given a string, return the size of the <u> longest substring of equal chars </u> in it. </b> </summary>
+  <summary>Example1 Solution:</summary>
   
 ```cpp
     int conChar(string s) {
@@ -40,19 +48,23 @@ With time and practice these solutions become typical.
 1. Do1
 1. Do1
 </details>
+
 <details>
-    <summary> 2. <a href = "All_into_one_loop\Flipped01.cpp"> Flipped 01 </a> </summary>
+<summary> 2. <a href = "All_into_one_loop\Flipped01.cpp"> Flipped 01 </a> </summary>
 
 1. Do1
 1. Do1
 </details>
+
 <details>
-    <summary> 3. <a href = "All_into_one_loop\Set_records.cpp"> Set records </a> </summary>
+<summary> 3. <a href = "All_into_one_loop\Set_records.cpp"> Set records </a> </summary>
 
 1. Do1
 1. Do1
+
 </details>
-    <summary> 1. <a href = ""> Maximal contiguous sum </a> </summary>
+
+<summary> 1. <a href = ""> Maximal contiguous sum </a> </summary>
 
 1. Do1
 1. Do1

@@ -1,4 +1,5 @@
- # General notes
+# General notes
+
   > The person who says he knows what he thinks but cannot express it usually does not know what he thinks. ― Mortimer J. Adler
 
   * Plan your code, jot down your main structure & ideas into a [Pseudocode](https://en.wikipedia.org/wiki/Pseudocode), think if there's another way to solve the problem.
@@ -12,7 +13,8 @@
   * Change your input/output files if you have big input or output.
   * Use your keyboard buttons to visualize arrays.
 
- ## Coding aesthetics
+## Coding aesthetics
+
  Keeping an organized beautiful code is a good programmming habit, which saves you a lot of time while debugging.
   1. Partition your code into multiple stages or sections then comment above each section, you can add an output text at the end of each section of the code to debug more quickly.
   1. Use indentation: this reveals the entire code structure. 

@@ -1,4 +1,5 @@
 Computer memory consists of:
+
   1. Value
   1. Address
   1. Variable.

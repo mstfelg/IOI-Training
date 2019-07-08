@@ -25,10 +25,9 @@ Providing elegant solutions to challenging problems is a real joy for me; in thi
                         
     */
 ```
-   * [To-do list](https://github.com/mstfelq/Coding/blob/master/To-do.md)
-   * [Problem list](https://github.com/mstfelq/Coding/blob/master/Problems.md)
-   * [Theory](https://github.com/mstfelq/Coding/blob/master/Theory/0.General%20notes.md)
-      * Coding aesthetics
+   * [To-do list](0-Notebook/To-do.md)
+   * [Problem list](0-Notebook/Problems.md)
+   * [Theory](0-Notebook/General_notes.md)
 
 ## Resources
 

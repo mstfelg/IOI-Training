@@ -1,0 +1,8 @@
+site_name: IOI Training
+repo_url: https://github.com/mstfelq/IOI-Training
+repo_name: IOI Training
+edit_uri: tree/master/0-[Notebook]
+site_author: Mustafa Alelq
+site_description: Notes on problem solving from Informatics Olympiad and competitive programming.
+docs_dir: ./
+site_dir: ../mstfelq.github.io/IOI-Training

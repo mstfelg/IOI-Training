@@ -1,8 +1,61 @@
+# Site
 site_name: IOI Training
-repo_url: https://github.com/mstfelq/IOI-Training
-repo_name: IOI Training
-edit_uri: tree/master/0-[Notebook]
-site_author: Mustafa Alelq
 site_description: Notes on problem solving from Informatics Olympiad and competitive programming.
+site_url: 'https://MustafaElq.sa/IOI-Training'
+site_author: 'Mustafa Alelq'
+copyright: 'Built by <a href="http://github.com/mstfelq">Mustafa Alelq</a> &copy; 2019'
+
+# Repository
+repo_name: IOI-Training
+repo_url: https://github.com/mstfelq/IOI-Training
+edit_uri: tree/master/0-Notebook
 docs_dir: 0-Notebook
 site_dir: ../mstfelq.github.io/IOI-Training
+
+# Customization
+theme:
+  name: 'material'
+  palette:
+    primary: 'teal'
+    accent: 'Deep Purple'
+  custom_dir: 'z-Archive/assets/custom/'
+favicon: 'z-Archive/assets/favicon.png'
+
+extra_css:
+  - 'z-Archive/assets/css/katex.css'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css'
+
+extra_javascript:
+  - 'z-Archive/assets/js/katex.js'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js'
+  - 'https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js'
+
+markdown_extensions:
+  - codehilite:
+      linenums: true
+      guess_lang: false
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+social:
+  - type: 'github'
+    link: 'https://github.com/mstfelq'
+  - type: 'twitter'
+    link: 'https://twitter.com/mstfelq'
+  - type: 'globe africa'
+    link: 'http://Mustafaelq.sa'

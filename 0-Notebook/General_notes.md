@@ -1,19 +1,3 @@
-# Notebook structure
-1. **Index** - [Tasks](To-do.md) - [Problems](Problems.md)
-1. Chapter 1 (General notes):
-    1. [Data type](Chapter1\Data_types.md).
-    1. [Pointer](Chapter1\Pointer.md).
-    1. [Complexity](Chapter1\Complexity.md).
-    1. [Minimalist codes](Chapter1\Minimalist_codes.md).
-    1. [Debugging](Chapter1\Debugging.md).
-1. Chapter 2 (Topics):
-    1. Graph theory.
-    1. Sort.
-    1. Search.
-    1. Segment tree.
-1. Chapter 3 (Techniques):
-    1. [All into one loop](Techniques\All_into_one_loop.md).
-
  # General notes
   > The person who says he knows what he thinks but cannot express it usually does not know what he thinks. ― Mortimer J. Adler
 

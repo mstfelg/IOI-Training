@@ -22,6 +22,7 @@
   - [ ] Bottom up
 
    ## Reading list
+  - [ ] [Competitive programmer's handout](https://cses.fi/book/book.pdf)
   - [ ] [Informatics olympiad: Approaching mathematics through code](http://www.wfnmc.org/mc20072BenBurton.pdf)
   - [ ] [A Self-Learning, Modern Computer Science Curriculum](https://functionalcs.github.io/curriculum/)
   

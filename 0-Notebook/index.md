@@ -7,9 +7,9 @@ You can check the rest of work and problems archive on my  [GitHub](https://gith
   — 23 June, 2019.
 
 ## Quick access
-   * [To-do list](0-Notebook/To-do.md)
-   * [Problem list](0-Notebook/Problems.md)
-   * [Theory](0-Notebook/General_notes.md)
+   * [To-do list](To-do.md)
+   * [Problem list](Problems.md)
+   * [Theory](General_notes.md)
 
 ## Resources
 

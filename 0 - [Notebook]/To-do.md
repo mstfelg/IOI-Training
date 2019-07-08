@@ -1,8 +1,9 @@
   # Tasks
   - [ ] Finish [Programiz Curriculum](https://www.programiz.com/cpp-programming)
   - [ ] Learn [data structures](https://visualgo.net).
-  - [ ] Reach score 50 on kattis
+  - [ ] Reach score 50 on kattis.
   - [ ] Master the programs you use: (Github, VS code)
+  - [ ] Learn CMD.
   
    ## Nice problems to be solved
   - [ ] [Dima & Text messages](https://codeforces.com/problemset/problem/358/B)

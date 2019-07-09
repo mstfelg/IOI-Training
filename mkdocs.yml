@@ -12,6 +12,21 @@ edit_uri: tree/master/0-Notebook
 docs_dir: 0-Notebook
 site_dir: ../mstfelq.github.io/IOI-Training
 
+# Overview
+
+# nav:
+#   - Back to personal website: https://MustafaElq.sa
+#   - Preface: index.md
+#   - General notes: General_notes.md
+#   - Tasks: To-do.md
+#   - I Fundamentals:
+#     - 1 Data types: 1.Data_types.md
+#     - 2 Pointers: 2.Pointers.md
+#     - 3 Minimalist codes: 3.Minimalist_codes.md
+#     - 4 Debugging: 2.Pointers.md
+
+
+
 # Customization
 theme:
   # favicon: './z-Archive/assets/images/favicon.png'

@@ -12,7 +12,6 @@ edit_uri: tree/master/0-Notebook
 docs_dir: 0-Notebook
 site_dir: ../mstfelq.github.io/IOI-Training
 
-
 # Customization
 theme:
   name: 'material'
@@ -21,8 +20,7 @@ theme:
     accent: 'Deep Purple'
   custom_dir: 'z-Archive/assets/custom/'
   logo:
-    icon: 'cloud'
-  # favicon: 'z-Archive/assets/img/favicon.ico'
+    icon: 'laptop_chromebook'
 extra_css:
   - 'z-Archive/assets/css/katex.css'
   - 'https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css'

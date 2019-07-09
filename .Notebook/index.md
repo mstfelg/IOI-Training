@@ -13,7 +13,7 @@ You can check the rest of work and problems archive on my [website](https://Must
 ## Quick access
    * [To-do list](To-do.md)
    * [Problem list](Problems.md)
-   * [Theory](General_notes.md)
+   * [General notes](General_notes.md)
 
 ## Resources
 

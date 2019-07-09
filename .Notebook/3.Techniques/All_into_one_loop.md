@@ -35,9 +35,9 @@ With time and practice these solutions become typical.
 
 ## Problems
 
-1. <a href = "All_into_one_loop\Longest_increasing_subsequence.cpp">Longest increasing subsequence</a>
-1. <a href = "All_into_one_loop\Flipped01.cpp"> Flipped 01 </a>.
-1. <a href = "All_into_one_loop\Set_records.cpp"> Set records </a>.
+1. <a href = "https://github.com/mstfelq/IOI-Training/blob/master/.Notebook/3.Techniques/All_into_one_loop/Longest_increasing_subsequence.cpp">Longest increasing subsequence</a>
+1. <a href = "https://github.com/mstfelq/IOI-Training/blob/master/.Notebook/3.Techniques/All_into_one_loop/Flipped01.cpp"> Flipped 01 </a>.
+1. <a href = "https://github.com/mstfelq/IOI-Training/blob/master/.Notebook/3.Techniques/All_into_one_loop/Set_records.cpp"> Set records </a>.
 1. Maximal contiguous sum.
 
 ## See also

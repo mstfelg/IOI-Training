@@ -8,8 +8,8 @@ copyright: 'Built by <a href="http://github.com/mstfelq">Mustafa Alelq</a> &copy
 # Repository
 repo_name: IOI-Training
 repo_url: https://github.com/mstfelq/IOI-Training
-edit_uri: tree/master/0-Notebook
-docs_dir: 0-Notebook
+edit_uri: tree/master/.Notebook
+docs_dir: .Notebook
 site_dir: ../mstfelq.github.io/IOI-Training
 
 # Overview

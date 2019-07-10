@@ -12,7 +12,6 @@
   * Use return 0 to end the program, generally, in any function, return stops the work of function on next lines.
   * Change your input/output files if you have big input or output.
   * Use your keyboard buttons to visualize arrays.
-  * ().
   
 ## Coding aesthetics
 

@@ -10,3 +10,4 @@ Date | Problem | Tags
 2019-06-27 | [Lucky division](https://codeforces.com/problemset/problem/122/A) ([Sol](https://github.com/mstfelq/IOI-Training/blob/9e37097a50180d133df157fe43fc097d5b07626b/Number%20Theory/Lucky%20Division.cpp)) | Examining divisors of a number
 2019-06-27 | [Flipping game](https://codeforces.com/problemset/problem/327/A) ([Sol](https://github.com/mstfelq/IOI-Training/blob/a9a4e3ba03389e9f26b90b6d247df2be7bc7d0e8/.Notebook/3.Techniques/All_into_one_loop/Flipped01.cpp)) | Binary, flip, optimization
 2019-06-29 | [School queue](https://codeforces.com/contest/266/problem/B) ([Sol](https://github.com/mstfelq/IOI-Training/blob/8422f7517c0a2c77dfcae0abf29ccf4f8936af00/String_manipulations/Queue(BG).cpp)) | Binary, flip
+2019-07-10 | [Sagheer the hausmeister](https://codeforces.com/problemset/problem/812/B) ([Sol]()) |

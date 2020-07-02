@@ -1,1 +1,0 @@
-I started programming simple static HTML website in 2014, since then I didn't take programming seriously, I was just playing with codes. This folder is an archive of my past experiences and working (playing) with codes since 2014 until 2018.

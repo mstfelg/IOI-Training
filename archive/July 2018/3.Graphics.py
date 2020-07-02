@@ -22,7 +22,7 @@ screen = pygame.display.set_mode(size) # Opening and setting the window size
 
 pygame.display.set_caption("CHECK THIS COOL GAME") # Displaying window title
 font = pygame.font.SysFont('Calibri', 25, True, False)
-text = font.render("Hey, brother!! WHATS APP", True, BLACK)
+text = font.render("TEST", True, BLACK)
 # Setting the main loop
 done = False
 clock = pygame.time.Clock()

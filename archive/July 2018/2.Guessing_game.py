@@ -5,7 +5,6 @@
     Description     :   First game: guessing game.
 '''
 
-# Playing with randomness
 # q is a random number between 0 and 1
 # q = random.random() 
 # print (q)

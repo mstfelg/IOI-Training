@@ -13,7 +13,7 @@ int main () {
     int count = 0;
     for (int i = 0; i < s.length(); i++)
     {
-        count += min(abs((a-s[i]) % 26), 26 - abs((a-s[i]) % 26));
+        count += min(abs((a-s[i])), 26 - abs((a-s[i])));
         a = s[i];
     }
     cout << count;

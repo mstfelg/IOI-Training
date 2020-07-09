@@ -8,7 +8,7 @@ Description	:	A solution to: https://codeforces.com/contest/732/problem/A
 */
 
 
-// Simplified definition of gcd considering only the factors of 10
+// Simplified gcd considering only the factors of 10
 int gcd(int a) {
     if (a % 10) {
         if (!(a % 5)) {return 5;}
@@ -21,8 +21,6 @@ int gcd(int a) {
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
-    // ifstream cin("input.txt");
-    // ofstream cout("output.txt");
     int k, r;
     cin >> k >> r;
     k %= 10;

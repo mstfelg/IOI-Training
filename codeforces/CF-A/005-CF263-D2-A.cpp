@@ -19,6 +19,6 @@ int main () {
      flag = a;
      i++;
     }
-    cout << i << endl << abs(i/5 + (i % 5 != 0) - 3) + abs((i-1)% 5 - 2);
+    cout << endl << abs(i/5 + (i % 5 != 0) - 3) + abs((i-1)% 5 - 2);
     return 0;
 }

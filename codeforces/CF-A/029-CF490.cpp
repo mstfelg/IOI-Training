@@ -1,7 +1,7 @@
 /*
-Title		    :	A. Team Olympiad
+Title		:	A. Team Olympiad
 Author	    :	ALELQ, MUSTAFA
-Date		    :	2020-07-17  
+Date        :	2020-07-17  
 Description	:	A solution to: https://codeforces.com/contest/490/problem/A
 */
 

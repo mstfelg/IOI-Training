@@ -8,7 +8,6 @@ Description	:	A solution to: https://codeforces.com/contest/567/problem/A
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
-    ifstream cin("input.txt");
     int n; cin >> n;
     int city[n];
     for (int i = 0; i < n; i++)

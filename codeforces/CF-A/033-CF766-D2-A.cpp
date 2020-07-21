@@ -1,7 +1,7 @@
 /*
 Title		:	A. Mahmoud and Longest Uncommon Subsequence
 Author		:	ALELQ, MUSTAFA
-Date		:	2020-07-17
+Date		:	2020-07-20
 Description	:	A solution to: https://codeforces.com/contest/766/problem/A
 */
 

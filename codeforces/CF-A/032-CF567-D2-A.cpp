@@ -1,7 +1,7 @@
 /*
 Title		:	A. Lineland Mail
 Author		:	ALELQ, MUSTAFA
-Date		:	2020-07-17
+Date		:	2020-07-19
 Description	:	A solution to: https://codeforces.com/contest/567/problem/A
 */
 

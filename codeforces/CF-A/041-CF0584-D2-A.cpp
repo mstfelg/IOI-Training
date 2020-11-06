@@ -14,6 +14,8 @@ int main()
 	if (n == 1) {
 		if (t == 10)
 			cout << -1;
+		else
+			cout << t;
 	}
 	else {
 		cout << t;
@@ -24,3 +26,4 @@ int main()
 	}
 	return 0;
 }
+

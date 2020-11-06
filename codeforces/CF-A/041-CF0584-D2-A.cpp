@@ -21,7 +21,7 @@ int main()
 		cout << t;
 		int i = 1;
 		i += (t == 10);
-		for (int i = 1; i < n; ++i)
+		for (; i < n; ++i)
 			cout << 0;
 	}
 	return 0;

@@ -9,7 +9,6 @@ using namespace std;
 int main()
 {
 	int n; cin >> n;
-
 	int a1, b1;
 	cin >> a1 >> b1;
 	bool isDiff = (a1 != b1);

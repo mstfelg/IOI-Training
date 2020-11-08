@@ -12,7 +12,8 @@ int gcd(int a, int b) {
 
 // Checking whether n is a prime or not
 bool isPrime(int p) {
-    bool flag = 1;
-    for (int i = 2; flag && i*i <= p; i++) flag &= (p % i != 0);
-    return flag;
+	if (p == 1) return 0;
+    for (int i = 2; i*i < p; ++i)
+		if (p % i == 0) return 0;
+    return 1;
 }
